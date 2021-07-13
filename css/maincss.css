@@ -16,8 +16,7 @@
         flex-direction: row-reverse;
     }
     li a {
-        display: flex;
-        
+        display: flex;  
         color: white;
         text-align: center;
         padding: 14px 16px ;
