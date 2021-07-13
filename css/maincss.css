@@ -1,0 +1,148 @@
+
+    ul{
+        list-style-type: none;
+        position: fixed;
+        background-color: rgb(23, 37, 37);
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        top: 0;
+        width: 99%;
+       
+    }
+    li{
+        float: left; 
+        text-align-last: justify;
+        flex-direction: row-reverse;
+    }
+    li a {
+        display: flex;
+        
+        color: white;
+        text-align: center;
+        padding: 14px 16px ;
+        text-decoration: none; 
+
+    }
+
+    li a:hover {
+        background-color:rgb(58, 94, 94);
+        padding: 14px 16px;
+    }
+
+    body{
+        background-color:rgb(23, 37, 37);
+        content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+    }
+
+    #home-section{
+        display: flex;
+        background-color:rgb(23, 37, 37);
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-end;
+    }
+    .mainimage{
+        flex-basis: 35%;
+    }
+    .maintext{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    img{
+        height: 700px;
+        width: 400px;
+        object-fit: contain;
+        padding: 10px;
+        
+    }
+    .icons{
+        font-size: 1em;
+        padding: 2px;
+        
+    }
+    #hello-button{
+        background: rgb(76, 163, 68);
+        border: 0;
+        color: white;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        border-radius: 5%;
+    }
+
+    #name{
+        float: left;
+        color: white;
+        text-align: center;
+        font-size:30px;
+        font-weight: bolder;
+        padding: 14px 16px ;
+        text-decoration: none;
+        padding-right: 550px;
+        text-shadow: 0px 2px 3px #555;
+    }
+
+    .social-media-circles{
+        color: white;
+        font-size: 1em;
+        display: inline-block;
+        height: 20px;
+        width: 18px;
+        margin: 15px;
+        border: 1px white solid;
+        border-radius: 50%;
+        background:rgb(23, 37, 37);
+        padding: 5px 10px 5px 10px;
+        font-family: helvetica;
+        text-align: center;
+    }
+      
+    #h2{
+        color: white;
+        text-align: left;
+        font-size: 3em;
+        padding: 20px;
+    }
+    #about-section{
+        display: flex;
+        padding-top: 0px;
+        background-color: rgb(23, 37, 37);
+        padding: 0px;
+        padding-bottom: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-image{
+        flex-basis: 40%; 
+    }
+    .about-text{
+       
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #skills-section{
+        display: flex;
+        padding-top: 0px;
+        background-color: rgb(23, 37, 37);
+        padding: 0px;
+        padding-bottom: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-image{
+        font-size: 20px;
+    }
+    .skills-text{   
+        flex-basis: 50%;
+    }
