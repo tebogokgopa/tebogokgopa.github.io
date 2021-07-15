@@ -140,6 +140,8 @@
 
     .skills-image{
         flex-basis: 40%;
+        height: 700px;
+        width: 400px;
         padding-left: 20px;
     }
     .skills-text{ 
