@@ -142,9 +142,8 @@
         flex-basis: 40%;
         height: 700px;
         width: 400px;
-        padding-left: 20px;
     }
     .skills-text{ 
-        flex-basis: 60%;
+        flex-basis: 50%;
         font-size: 20px;  
     }
