@@ -139,9 +139,9 @@
     }
 
     .skills-image{
-        font-size: 20px;
+        flex-basis: 60%;
     }
     .skills-text{ 
         font-size: 20px;  
-        flex-basis: 50%;
+        padding-right: 20px;
     }
