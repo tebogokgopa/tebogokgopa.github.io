@@ -124,7 +124,6 @@
         flex-basis: 40%; 
     }
     .about-text{
-       
         font-size: 20px;
         padding-left: 20px;
     }
@@ -142,6 +141,7 @@
     .skills-image{
         font-size: 20px;
     }
-    .skills-text{   
+    .skills-text{ 
+        font-size: 20px;  
         flex-basis: 50%;
     }
