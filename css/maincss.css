@@ -28,7 +28,7 @@
         background-color:rgb(58, 94, 94);
         padding: 14px 16px;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 50em) {
         ul, 
         ul{float: none;}
       }
