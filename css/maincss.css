@@ -167,3 +167,22 @@
             box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
         }
     }
+    /*Experiences section css*/    
+    #experience-section{
+        display: flex;
+        padding-top: 0px;
+        background-color: rgb(23, 37, 37);
+        padding: 0px;
+        padding-bottom: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience-image{
+        flex-basis: 40%; 
+    }
+    .experience-text{
+        font-size: 20px;
+        padding-left: 20px;
+    }
