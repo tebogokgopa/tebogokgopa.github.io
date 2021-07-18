@@ -30,6 +30,7 @@
     }
     @media screen and (min-width: 50em) {
         ul, 
+        body,
         ul{float: none;padding: auto;}
       }
 
