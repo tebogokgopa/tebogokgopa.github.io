@@ -1,4 +1,5 @@
 
+    /*Main tags (Nav bar) and Body*/
     ul{
         list-style-type: none;
         position: fixed;
@@ -33,13 +34,24 @@
         ul{float: none;padding: auto;}
       }
 
+    #name{
+        float: left;
+        color: white;
+        text-align: center;
+        font-size:30px;
+        font-weight: bolder;
+        padding: 14px 16px ;
+        text-decoration: none;
+        padding-right: auto;
+        text-shadow: 0px 2px 3px #555;
+    }
     body{
         background-color:rgb(23, 37, 37);
         content: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: left;
     }
-
+/*Home section css*/
     #home-section{
         display: flex;
         background-color:rgb(23, 37, 37);
@@ -80,18 +92,6 @@
         border-radius: 5%;
     }
 
-    #name{
-        float: left;
-        color: white;
-        text-align: center;
-        font-size:30px;
-        font-weight: bolder;
-        padding: 14px 16px ;
-        text-decoration: none;
-        padding-right: auto;
-        text-shadow: 0px 2px 3px #555;
-    }
-
     .social-media-circles{
         color: white;
         font-size: 1em;
@@ -113,6 +113,8 @@
         font-size: 3em;
         padding: 20px;
     }
+
+/*About section css*/    
     #about-section{
         display: flex;
         padding-top: 0px;
@@ -131,6 +133,8 @@
         font-size: 20px;
         padding-left: 20px;
     }
+
+/*Skills section css*/    
     #skills-section{
         display: flex;
         padding-top: 0px;
@@ -150,4 +154,16 @@
     .skills-text{ 
         flex-basis: 50%;
         font-size: 20px;  
+    }
+
+/*Card section to adjust to screens*/    
+    @media screen and (min-width: 50em) {
+        .card{
+            flex-basis: 325px;
+            border: 1px solid #ccc;
+            background-color: ivory;
+            margin: 25px;
+            padding: 25px;
+            box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+        }
     }
