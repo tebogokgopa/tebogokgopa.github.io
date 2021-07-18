@@ -89,7 +89,7 @@
         font-weight: bolder;
         padding: 14px 16px ;
         text-decoration: none;
-        padding-right: 550px;
+        padding-right: auto;
         text-shadow: 0px 2px 3px #555;
     }
 
