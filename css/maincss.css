@@ -28,6 +28,10 @@
         background-color:rgb(58, 94, 94);
         padding: 14px 16px;
     }
+    @media screen and (max-width: 600px) {
+        ul, 
+        ul{float: none;}
+      }
 
     body{
         background-color:rgb(23, 37, 37);
