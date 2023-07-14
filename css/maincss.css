@@ -62,7 +62,7 @@
         align-items: center;
         justify-content: center;
         align-content: flex-end;
-        height: 100%;
+        height: 100vh;
     }
     .mainimage{
         flex-basis: 35%;
@@ -125,6 +125,7 @@
         color: white;
         align-items: center;
         justify-content: center;
+        height: 100vh;
     }
 
     .about-image{
@@ -145,6 +146,7 @@
         color: white;
         align-items: center;
         justify-content: center;
+        height: 100vh;
     }
 
     .skills-image{
@@ -178,6 +180,7 @@
         color: white;
         align-items: center;
         justify-content: center;
+        height: 100vh;
     }
 
     .experience-image{
@@ -200,7 +203,7 @@
         font-size: 20px;
         padding-bottom: 0px;
         padding-top: 20px; 
-        height: fit-content;
+        height: 100vh;
     }
     #portfolio-image{
         padding: 0;
