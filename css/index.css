@@ -78,14 +78,13 @@ a.active, a:hover{
     color: white;
     height: 50px;
     width:50%;
-    font-size: 1em;
+    font-size: 25px;
     border-radius: 5px;
 }
   
 #h2{
     color: white;
     text-align: left;
-    font-size: 2em;
     padding:opx;
 }
 
@@ -231,30 +230,90 @@ a.active, a:hover{
     font-weight: 500;
     color: white;
     height: 40vh;
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: left;
+    
 }
 
 .portfoliocards{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 80vh;
-    width: 80vh;
-    margin-left: 0;
+    width: 60vw;
+    
 }
 .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
-.card{
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 45%;
+    background-image: url('/images/apps/calculator.jpeg');
+    background-size: cover;
+}
+
+.card1 input[type = "button"]{
+    width: 40%;
+    background-color: transparent;
+    border: black 3px double;
+    color: white;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     height: 35vh;
     width: 45%;
-    
+    background-size: cover;
+    background-image: url('/images/apps/todo.jpeg');
+}
+
+.card2 input[type = "button"]{
+    width: 40%;
+    background-color: transparent;
+    border: black 3px double;
+    color: navy;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    background-image: url('/images/apps/shared-library.jpeg');
+    background-size: cover;
+}
+.card3 input[type = "button"]{
+    width: 40%;
+    background-color: transparent;
+    border: wheat 5px double;
+    color: yellow;
+}
+.card4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    background-image: url('/images/apps/linux.jpeg');
+    background-size: contain;
+}
+.card4 input[type = "button"]{
+    width: 40%;
+    background-color: transparent;
+    border: black 3px double;
+    color: navy;
 }
 .feedbacksection{
     background-image: url('/images/background/3uwezSc-717532907.jpeg');
