@@ -234,7 +234,7 @@ a.active, a:hover{
     display: flex;
     flex-direction: column;
     align-items: left;
-    
+    padding-left: 20px;
 }
 
 .portfoliocards{
