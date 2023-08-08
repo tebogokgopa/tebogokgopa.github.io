@@ -316,7 +316,7 @@ a.active, a:hover{
     color: navy;
 }
 .feedbacksection{
-    background-image: url('/images/background/3uwezSc-717532907.jpeg');
+    background-image: url('/images/background/HD-Technology-Wallpaper-6-1223916119.jpeg');
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -326,7 +326,7 @@ a.active, a:hover{
 }
 
 .feedbacksection form{
-    background-color: #0005;
+    background-color: rgba(219, 214, 214, 0.333);
     height: 80vh;
     width: 80vh;
     border-radius: 1%;
