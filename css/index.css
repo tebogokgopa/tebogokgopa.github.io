@@ -334,12 +334,13 @@ a.active, a:hover{
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
-    color: white;
+    color: navy;
+    font-size: larger;
+    font-weight: 400;
 }
 
 .feedbacksection h1{
     text-align: center;
-    color: white;
 }
 
 .feedbacksection input[type="text"],input[type="email"],input[type="button"]{
@@ -364,4 +365,8 @@ a.active, a:hover{
 .feedbacksection select{
     height: 30px;
     font-size: 20px;
+}
+
+.stars{
+    color: red;
 }
