@@ -81,11 +81,21 @@ a.active, a:hover{
     font-size: 25px;
     border-radius: 5px;
 }
-  
+.greeting{
+    display: flex;
+    flex-direction: row;
+}
 #h2{
     color: white;
     text-align: left;
-    padding:opx;
+    padding:0;
+}
+
+#h2::first-letter{
+    color: red;
+    font-size: 54px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .mainimage{
