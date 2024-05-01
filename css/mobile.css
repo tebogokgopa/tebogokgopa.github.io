@@ -109,6 +109,7 @@
 
     .skillssection{
         height: 100vh;
+        width: 100vw;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
@@ -120,7 +121,7 @@
     .skillssection img{
         border-radius: 3%;
         height: 40vh;
-        width: 90vh;
+        width: 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -137,13 +138,10 @@
         font-weight: 500;
         color: white;
         height: 40vh;
-        width: 90vh;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 10vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        text-wrap: wrap;
     }
 
     .experiencesection{
@@ -158,7 +156,7 @@
     .experiencesection img{
         border-radius: 3%;
         height: 40vh;
-        width: 90vh;
+        width: 90vw;
     }
 
     .experiencetext{
@@ -166,13 +164,37 @@
         font-weight: 500;
         color: navy;
         height: 40vh;
-        width: 90vh;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 10vh;
     }
     
     .experiencetext h1{
         display: none;
+    }
+    .feedbacksection{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .feedbacksection form{
+        background-color: rgba(219, 214, 214, 0.333);
+        height: 80vh;
+        width: 70vh;
+        border-radius: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: navy;
+        font-size: larger;
+        font-weight: 400;
+        margin-bottom: 5vh;
     }
 }
