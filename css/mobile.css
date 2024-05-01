@@ -94,6 +94,7 @@
         position: fixed;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 10vh;
     }
 
     footer a{
