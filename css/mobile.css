@@ -145,7 +145,7 @@ body{
         line-height: 0.5px;
         border: white 0.5px solid;
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
-        padding-bottom: 1vh;
+        padding-bottom: 2px;
     }
     .maintext h1{
         color: navy;
@@ -205,6 +205,7 @@ body{
         background-color: white;
         border-radius: 10px;
         margin-top: 5px;
+        box-shadow: 1px 1px 1px 1px white;
     }
     textarea{
         border-radius: 10px;
