@@ -172,7 +172,7 @@ body{
 
     form{
         
-        height: 80vh;
+        height: 75vh;
         width: 85vw;
         border-radius: 1%;
         display: flex;
@@ -192,19 +192,19 @@ body{
         text-align: left;
     }
     input[type="text"],input[type="email"],input[type="button"]{
-        height: 45px;
-        font-size: 25px;
+        height: 35px;
+        font-size: 15px;
         border-radius: 10px;
     }
     
     input[type="button"]{
-        height: 45px;
-        font-size: 25px;
+        height: 35px;
+        font-size: 20px;
         text-transform: uppercase;
         color: black;
         background-color: white;
         border-radius: 10px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     textarea{
         border-radius: 10px;
@@ -212,7 +212,7 @@ body{
     
     
     select{
-        height: 30px;
+        height: 25px;
         font-size: 20px;
         border-radius: 10px;
     }
