@@ -1,159 +1,98 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset = "UTF-8">
-        <title>tebogokgopa</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/all.min.css">
-        <link rel="stylesheet" href="./css/all.css">
-        <link rel="stylesheet" href="./css/fontawesome.min.css">
-        <link rel="stylesheet" href="./css/fontawesome.css">
-        <link rel="stylesheet" href="./css/mobile.css">
-    </head>
-    <body >      
-        <nav>
-            <ul>
-                <li><i class="fa fa-home fa-1g" aria-hidden="true"></i><a href="#">Home</a></li>
-                <li><i class="fa fa-user-circle fa-1g" aria-hidden="true"></i><a href="#about">About</a></li>
-                <li><i class="fa fa-graduation-cap fa-1g" aria-hidden="true"></i><a href="#skills">Skills</a></li>
-                <li><i class="fa fa-list fa-1g" aria-hidden="true"></i><a href="#experiences">Experiences</a></li>
-                <li><i class="fa fa-code-fork fa-1g" aria-hidden="true"></i><a href="#portfolio">Portfolio</a></li>
-                <li><i class="fa fa-comments fa-1g" aria-hidden="true"></i><a href="#feedback">Feedback</a></li>
-            </ul>   
-        </nav>
-        <main>
-            <div class="mainimage">
-                <img src="./images/profile/profile-2.jpg" alt="" >
-            </div>     
-            <div class="maintext">
-                <button id="hello-button">Thôbêla Ka Gae!</button>
-                <div class="greeting">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tebogokgopa</title>
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+<body>
+    <main class="slider">
+        <section class="slides">
+            <article id="slide-1">
+                <img src="./assets/images/profile.png" alt="">
+                <div class="maintext">
                     <h2 id="h2">Tebogo Kgopa</h2> 
-                </div>        
-                <p>Developer & Facilitator</p>
-                <p>Village 1 South , Khayelitsha , Cape Town 7784</p>
-                <p><a href=" ">082 414 2377</a></p>
-                <p>tebogokgopa84@gmail.com</p>
-                <p>https://tebogokgopa.github.io/</p>
-                <p>https://github.com/tebogokgopa/</p>
-                <div class="footer_links">
-                    <a class = "my_links" href="https://www.facebook.com/Tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/facebook-icon.png"></a>
-                    <a class = "my_links" href="https://mobile.twitter.com/tebogo_cyber" target="_blank"><img class="icons" src="./images/icons/twitter-icon.png"></a>
-                    <a class = "my_links" href="https://www.instagram.com/tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/instagram-icon.png"></a>
-                    <a class = "my_links" href="https://www.linkedin.com/in/tebogo-kgopa-83878b179/" target="_blank"><img class="icons" src="./images/icons/linkedin-icon.png"></a>
-                    <a class = "my_links" href="https://github.com/tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/github-icon.png"></a>
+                    <p>Developer & Facilitator</p>
+                    <p>Village 1 South , Khayelitsha , Cape Town 7784</p>
+                    <p><a href=" ">082 414 2377</a></p>
+                    <p>tebogokgopa84@gmail.com</p>
+                    <p>https://tebogokgopa.github.io/</p>
+                    <p>https://github.com/tebogokgopa/</p>
                 </div>
-            </div>       
-        </main> 
-        <div class="aboutsection" id="about">
-            <div class="aboutimage">
-                <img src="/images/profile/profile-3.jpg" alt="">
-            </div>
-            <div class="abouttext">
-                <h1>About</h1>
-                <br><br>
-                <p>A back-end Software Developer.</p>
-                <p>Ex-Sailor with a security clearance.</p>
-                <p>Volunteer facilitator at BabesGotBytes.</p>
-                <p>Enjoys teaching and coding.</p>
-                <p>A "village boy" from Jericho Village.</p>
-                <p>Ready for my TedTalk.</p>
-                <p>Enjoys Academia.</p>
-            </div>
-        </div>
-        <div class="skillssection" id="skills">
-            <div class="skillsimage">
-                <img src="/images/profile/profile-4.jpg" alt="">
-            </div>
-            <div class="skillstext">
-                <h1>Skills</h1>
-                <br><br>
-                <p>Front end : HTML,CSS, Javascript.</p>
-                <p>Back-end : C/C++, Java, Scala, Node.js,Python, Rust, Golang, PL/SQL.</p>
-                <p>Facilitation skills.</p>
-                <p>Project Management.</p>
-                <P>Does sucking at soccer count as a skill?</P>
-                <p>I think I am funny too.</p>
-            </div>
-        </div>
-        <div class="experiencesection" id="experiences">
-            <div class="experienceimage">
-                <img src="/images/profile/profile-1.jpg" alt="">
-            </div>
-            <div class="experiencetext">
-                <h1>Experiences</h1>
-                <br><br>
-                <p>Junior EW operator (SA NAVY).</p>
-                <p>Senior EW operator (SA NAVY).</p>
-                <p>Electronic Warfare Director (SA NAVY).</p>
-                <p>Senior EW Facilitor (SA NAVY).</p>
-                <p>Junior C/C++ developer (Mobinomics).</p>
-                <p>C/C++ developer.</p>
-            </div>
-        </div>
-        <div class="portfoliosection" id="portfolio">
-            <div class="portfoliotext">
-                <h2>Software Development</h2>
-                <h2>Project Portfolio</h2>
-                <p>________</p>
-            </div>
-            <div class="portfoliocards">
-                <div class="row">
-                    <div class="card1">
-                        <input type="button" value="OPEN">
-                    </div>
-                    <div class="card2">
-                        <input type="button" value="OPEN">
-                    </div>
+            </article>
+            <article id="slide-2">
+                <img src="./assets/images/profile3.jpg" alt="">
+                <div class="maintext">
+                    <h1>About</h1>
+                    <p>A back-end Software Developer.</p>
+                    <p>Ex-Sailor with a security clearance.</p>
+                    <p>Volunteer facilitator at BabesGotBytes.</p>
+                    <p>Enjoys teaching and coding.</p>
+                    <p>A "village boy" from Jericho Village.</p>
+                    <p>Ready for my TedTalk.</p>
                 </div>
-                <div class="row">
-                    <div class="card3">
-                        <input type="button" value="OPEN">
-                    </div>
-                    <div class="card4">
-                        <input type="button" value="OPEN">
-                    </div>
+            </article>
+            <article id="slide-3">
+                <img src="./assets/images/profile.png" alt="">
+                <div class="maintext">
+                    <h1>Skills</h1>
+                    <p>Front end : HTML,CSS, Javascript.</p>
+                    <p>Stack: C/C++,Python, Rust, Golang,PL/SQL.</p>
+                    <p>Facilitation skills.</p>
+                    <p>Project Management.</p>
+                    <P>Does sucking at soccer count as a skill?</P>
+                    <p>I think I am funny too.</p>
                 </div>
-            </div>
-        </div>
-        <div class="feedbacksection" id="feedback">
-            <form action="">
-                <h1>Wanna Chat ?</h1>
-                <span>Name <span class="stars">*</span></span> <input type="text" name="" id="feedbackname" placeholder="Write Name Here" required>
-                <span>Email <span class="stars">*</span></span> <input type="email" name="feedbackemail" id="feedbackemail" placeholder="example@mymail.com" required>
-                Subject 
-                <select name="emailsubject" id="feedbacksubject">
-                    <option value="">Normal Feedback.</option>
-                    <option value="">I am a recruiter.</option>
-                    <option value="">We are hiring.</option>
-                    <option value="">Available for tutoring.</option>
-                </select>
-                <span>Message <span class="stars">*</span></span> <textarea name="" id="feedbackmessage" cols="30" rows="10" placeholder="Write Message here"></textarea>
-                <input type="button" value="Send Email">
-            </form>
-        </div>
-        <footer>
-            <a href="#">
-                <img src="" alt="">
-                home
-            </a>
-            <a href="#about">
-                <img src="" alt="">
-                about
-            </a>
-            <a href="#skills">
-                <img src="" alt="">
-                skills
-            </a>
-            <a href="#experiences">
-                <img src="" alt="">
-                experience
-            </a>
-            <a href="#feedback">
-                <img src="" alt="">
-                feedback
-            </a>
-        </footer>
-    </body>
+            </article>
+            <article id="slide-4">
+                <img src="./assets/images/profile2.jpg" alt="">
+                <div class="maintext">
+                    <h1>Experiences</h1>
+                    <p>Junior EW operator (SA NAVY).</p>
+                    <p>Senior EW operator (SA NAVY).</p>
+                    <p>Electronic Warfare Director (SA NAVY).</p>
+                    <p>Senior EW Facilitor (SA NAVY).</p>
+                    <p>Junior C/C++ developer (Mobinomics).</p>
+                    <p>C/C++ developer (Mobinomics).</p>
+                </div>
+            </article>
+            <article id="slide-5">
+                <div class="mainform">
+                    <form action="">
+                        <h1>Wanna Chat ?</h1>
+                        <span>Name <span class="stars">*</span></span> <input type="text" name="" id="feedbackname" placeholder="Name Surname" required>
+                        <span>Email <span class="stars">*</span></span> <input type="email" name="feedbackemail" id="feedbackemail" placeholder="example@mymail.com" required>
+                        <span>Subject</span> 
+                        <select name="emailsubject" id="feedbacksubject">
+                            <option value="">Normal Feedback.</option>
+                            <option value="">I am a recruiter.</option>
+                            <option value="">We are hiring.</option>
+                            <option value="">Available for tutoring.</option>
+                        </select>
+                        <span>Message <span class="stars">*</span></span> <textarea name="" id="feedbackmessage" cols="30" rows="10" placeholder="Write Message here"></textarea>
+                        <input type="button" value="Send Email">
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main> 
+    <footer>
+        <a href="#slide-1">
+            <img src="./assets/home.png" alt="">
+        </a>
+        <a href="#slide-2">
+            <img src="./assets/about.png" alt="">
+        </a>
+        <a href="#slide-3">
+            <img src="./assets/skills.png" alt="">
+        </a>
+        <a href="#slide-4">
+           <img src="./assets/experience.png" alt="">
+        </a>
+        <a href="#slide-5">
+            <img src="./assets/contact.png" alt="">
+        </a>
+    </footer>
+</body>
 </html>
