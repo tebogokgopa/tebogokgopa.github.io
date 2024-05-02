@@ -141,10 +141,8 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-wrap: nowrap;
         border-radius: 3%;
         line-height: 0.5vh;
-        text-wrap: wrap;
         border: white 0.5px solid;
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
         padding-bottom: 1vh;
