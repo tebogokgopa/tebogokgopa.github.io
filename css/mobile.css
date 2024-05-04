@@ -153,6 +153,9 @@ body{
     .maintext h2{
         color: navy;
     }
+    .maintext h2::first-letter{
+        color: red;
+    }
 
     .mainform{
         font-size: 1rem;
