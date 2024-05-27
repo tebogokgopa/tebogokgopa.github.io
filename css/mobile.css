@@ -8,8 +8,11 @@ body{
     }
     
     html,body{
-        height: 100vh;
+        height: 100dvh;
+        width: 100dvw;
         overflow: hidden;
+        padding: 0;
+        margin: 9;
     }
     
     body{
@@ -21,8 +24,8 @@ body{
     }
     
     .slider{
-        width: 95vw;
-        height: 90vh;
+        width: 95dvw;
+        height: 95dvh;
         text-align: center;
         overflow: hidden;
         margin-top: 0;
@@ -54,8 +57,8 @@ body{
     .slides > article{
         scroll-snap-align: start;
         flex-shrink: 0;
-        width: 90vw;
-        height: 80vh;
+        width: 90dvw;
+        height: 80dvh;
         border-radius: 3%;
         transform-origin: center;
         transform: scale(1);
@@ -97,21 +100,21 @@ body{
     footer{
         display: flex;
         bottom: 0;
-        width: 95vw;
-        height: 9vh;
+        width: 95dvw;
+        height: 9dvh;
         position: fixed;
         justify-content: space-evenly;
         align-items: center;
     }
 
     footer a{
-        width: 16vw;
-        height: 8vh;
+        width: 16dvw;
+        height: 8dvh;
         border: white 0.5px solid;
         border-radius: 5%;
         color: black;
-        margin-top: 1vh;
-        margin-bottom: 4vh;
+        margin-top: 1dvh;
+        margin-bottom: 4dvh;
         display: flex;
         background-color: white;
         align-items: center;
@@ -121,12 +124,12 @@ body{
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
     }
     footer a img{
-        height: 6vh;
-        width: 12vw;
+        height: 6dvh;
+        width: 12dvw;
     }
     img{
-        height: 38vh;
-        width: 85vw;
+        height: 38dvh;
+        width: 85dvw;
         margin-top: 0;
         border-radius: 3%;
     }
@@ -135,9 +138,9 @@ body{
         font-size: 1rem;
         color: black;
         background-color: white;
-        height: 40vh;
-        width: 85vw;
-        margin-top: 3vh;
+        height: 40dvh;
+        width: 85dvw;
+        margin-top: 3dvh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -161,67 +164,68 @@ body{
         font-size: 1rem;
         color: white;
         background-color: white;
-        height: 75vh;
-        width: 85vw;
+        height: 75dvh;
+        width: 85dvw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-wrap: nowrap;
         border-radius: 3%;
-        line-height: 2px;
+        line-height: .5dvh;
         text-wrap: wrap;
         border: white 0.5px solid;
     }
 
-    form{
-        
-        height: 75vh;
-        width: 85vw;
+    form{  
+        height: 85dvh;
+        width: 85dvw;
         border-radius: 1%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 5vw;
+        padding: 5dvw;
         color: navy;
         font-size: larger;
         font-weight: 400;
     }
     
     form h1{
-        text-align: left;
+        margin-top: 5dvh;
+        text-align: center;
     }
 
     form span{
         text-align: left;
     }
+
     input[type="text"],input[type="email"],input[type="button"]{
-        height: 5vh;
-        width: 75vw;
+        height: 5dvh;
+        width: 75dvw;
         font-size: 1rem;
         border-radius: 10px;
     }
     
     input[type="button"]{
-        height: 5vh;
+        height: 5dvh;
         font-size: 1.5rem;
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: black;
-        background-color: white;
+        background-color: navy;
         border-radius: 10px;
         margin-top: 5px;
-        box-shadow: 1px 1px 1px 1px white;
+        box-shadow: 1px 1px 1px 1px whitesmoke;
     }
+
     textarea{
         border-radius: 10px;
     }
     
-    
     select{
-        height: 5vh;
+        height: 5dvh;
         font-size: 1rem;
         border-radius: 10px;
     }
-    
+
     .stars{
         color: red;
     }
