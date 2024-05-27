@@ -135,7 +135,7 @@ body{
     }
 
     .maintext{
-        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(14px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         color: black;
         background-color: white;
         height: 40dvh;
@@ -209,12 +209,12 @@ body{
     
     input[type="button"]{
         height: 6dvh;
-        font-size: 1.5rem;
+        font-size: calc(14px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         text-transform: capitalize;
         color: white;
         background-color: navy;
         border-radius: 10px;
-        margin-top: 1.5dvh;
+        margin-top: 1dvh;
         box-shadow: 1px 1px 1px 1px whitesmoke;
     }
 
@@ -225,11 +225,11 @@ body{
     
     select{
         height: 5dvh;
-        font-size: 1rem;
+        font-size: calc(14px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         border-radius: 10px;
     }
 
     .stars{
-        color: palevioletred;
+        color: red;
     }
 }
