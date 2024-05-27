@@ -173,7 +173,6 @@ body{
         border-radius: 3%;
         line-height: .5dvh;
         text-wrap: wrap;
-        padding-bottom: 1dvh; 
     }
 
     form{  
@@ -185,6 +184,7 @@ body{
         justify-content: space-around;
         padding-left: 5dvw;
         padding-right: 5dvw;
+        padding-bottom: 1.5dvh; 
         color: navy;
         font-size: calc(16px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         font-weight: 400; 
