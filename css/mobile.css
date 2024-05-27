@@ -220,6 +220,7 @@ body{
 
     textarea{
         border-radius: 10px;
+        min-height: 20dvh;
     }
     
     select{
