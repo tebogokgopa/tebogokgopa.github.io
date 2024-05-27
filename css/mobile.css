@@ -183,7 +183,8 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 5dvw;
+        padding-left: 5dvw;
+        padding-right: 5dvw;
         color: navy;
         font-size: calc(16px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         font-weight: 400; 
