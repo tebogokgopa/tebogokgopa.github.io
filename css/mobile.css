@@ -58,7 +58,7 @@ body{
         scroll-snap-align: start;
         flex-shrink: 0;
         width: 90dvw;
-        height: 80dvh;
+        height: 85dvh;
         border-radius: 3%;
         transform-origin: center;
         transform: scale(1);
@@ -135,7 +135,8 @@ body{
     }
 
     .maintext{
-        font-size: 1rem;
+        /* font-size: 1rem; */
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         color: black;
         background-color: white;
         height: 40dvh;
@@ -145,7 +146,7 @@ body{
         flex-direction: column;
         justify-content: center;
         border-radius: 3%;
-        line-height: 0.5px;
+        line-height: 0.15rem;
         border: white 0.5px solid;
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
         padding-bottom: 2px;
