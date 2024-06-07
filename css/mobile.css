@@ -150,6 +150,11 @@ body{
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
         padding-bottom: 2dvh;
     }
+    .maintext p{
+        align-self: flex-start;
+        justify-content: space-around;
+        padding-left: 3dvw;
+    }
     .maintext h1{
         color: navy;
     }
