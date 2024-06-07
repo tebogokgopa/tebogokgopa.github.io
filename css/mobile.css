@@ -20,7 +20,7 @@ body{
         align-items: center;
         justify-content: center;
         font-family: 'Ropa sans',sans-serif;
-        background: whitesmoke;
+        background: rgba(134, 133, 133, 0.267);
     }
     
     .slider{
