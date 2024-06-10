@@ -12,7 +12,7 @@ body{
         width: 100dvw;
         overflow: hidden;
         padding: 0;
-        margin: 9;
+        margin: 0;
     }
     
     body{
@@ -24,12 +24,13 @@ body{
     }
     
     .slider{
-        width: 95dvw;
-        height: 95dvh;
+        width: 100dvw;
+        height: 100dvh;
         text-align: center;
         overflow: hidden;
         margin-top: 0;
-        padding: 10px;
+        padding-left: 2dvw;
+        padding-right: 2dvw;
     }
     
     .slides{
@@ -57,7 +58,7 @@ body{
     .slides > article{
         scroll-snap-align: start;
         flex-shrink: 0;
-        width: 90dvw;
+        width: 100dvw;
         height: 85dvh;
         border-radius: 3%;
         transform-origin: center;
@@ -72,8 +73,8 @@ body{
     
     footer > a{
         display: flex;
-        width: 50px;
-        height: 50px;
+        width: 5dvw;
+        height: 5dvh;
         padding: auto;
         background: transparent;
         text-decoration: none;
@@ -97,11 +98,12 @@ body{
             display: none;
         }
     }
+
     footer{
         display: flex;
         bottom: 0;
         width: 95dvw;
-        height: 9dvh;
+        height: 12dvh;
         position: fixed;
         justify-content: space-evenly;
         align-items: center;
@@ -109,12 +111,12 @@ body{
 
     footer a{
         width: 16dvw;
-        height: 8dvh;
+        height: 9dvh;
         border: white 0.5px solid;
         border-radius: 5%;
         color: black;
         margin-top: 1dvh;
-        margin-bottom: 4dvh;
+        margin-bottom: 2dvh;
         display: flex;
         background-color: white;
         align-items: center;
@@ -124,12 +126,12 @@ body{
         box-shadow: 0.5px 0.5px 0.5px 0.5px white;
     }
     footer a img{
-        height: 6dvh;
+        height: 7dvh;
         width: 12dvw;
     }
     img{
-        height: 38dvh;
-        width: 85dvw;
+        height: 40dvh;
+        width: 90dvw;
         margin-top: 0;
         border-radius: 3%;
     }
@@ -139,7 +141,7 @@ body{
         color: black;
         background-color: white;
         height: 40dvh;
-        width: 85dvw;
+        width: 90dvw;
         margin-top: 3dvh;
         display: flex;
         flex-direction: column;
@@ -171,7 +173,7 @@ body{
         color: white;
         background-color: white;
         height: 80dvh;
-        width: 85dvw;
+        width: 90dvw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -190,7 +192,7 @@ body{
         justify-content: space-around;
         padding-left: 5dvw;
         padding-right: 5dvw;
-        padding-bottom: 1.5dvh; 
+        padding-bottom: 1dvh; 
         color: navy;
         font-size: calc(16px + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
         font-weight: 400; 
